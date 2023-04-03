@@ -6,9 +6,9 @@ from pathlib import Path
 from PIL import Image
 
 # Paths for each camera image folder
-path_front = "car_images/Coburg2_front"
-path_left = "car_images/Coburg2_left"
-path_right = "car_images/Coburg2_right"
+path_front = "../car_images/Coburg2_front"
+path_left = "../car_images/Coburg2_left"
+path_right = "../car_images/Coburg2_right"
 
 # Lists for all images from each camera
 front_im = glob.glob("car_images/Coburg2_front/*.jpeg")
